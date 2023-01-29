@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Method calistirma">
+    <test name="Belirli methodlari calistirma">
+        <classes>
+            <class name="tests.day15_softAssertPOM.C04_NegativeLoginTesti">
+                <methods>
+                    <include name="wrongMailTest"></include>
+                </methods>
+            </class>
+            <class name="tests.day16_smokeTests.C02_NegatifLoginTest">
+                <methods>
+                    <exclude name="yanlisMail"></exclude>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

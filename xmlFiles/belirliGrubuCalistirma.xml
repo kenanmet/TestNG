@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Grup calistirma">
+    <test name="istenen grubu calistirma">
+        <groups>
+            <run>
+                <include name="minireg1"></include>
+            </run>
+        </groups>
+        <packages>
+            <package name="tests.day15_softAssertPOM"></package>
+            <package name="tests.day14_testNGFramework"></package>
+        </packages>
+    </test>
+</suite>
