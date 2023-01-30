@@ -15,7 +15,7 @@ public class C01_SoftAssert {
     // java aratin
     // arama sonuclarinin 1000'den fazla oldugunu dogrulayin
 
-    @Test
+    @Test (groups = {"minireg1","minireg2"})
     public void test01(){
         // amazon anasayfaya gidin
         Driver.getDriver().get("https://www.amazon.com");

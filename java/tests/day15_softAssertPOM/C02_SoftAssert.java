@@ -29,7 +29,7 @@ public class C02_SoftAssert {
     // (dollar)","Japan (yen)","Mexico (peso)","Norway (krone)","New Zealand
     // (dollar)","Sweden (krona)","Singapore (dollar)","Thailand (baht)"
 
-    @Test
+    @Test (groups = "smoke")
     public void test01(){
         // 1. “http://zero.webappsecurity.com/” Adresine gidin
         Driver.getDriver().get("http://zero.webappsecurity.com/");

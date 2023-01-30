@@ -1,4 +1,4 @@
-package tests.day16_SmokeTests;
+package tests.day16_smokeTests;
 
 import org.openqa.selenium.By;
 import org.testng.Assert;

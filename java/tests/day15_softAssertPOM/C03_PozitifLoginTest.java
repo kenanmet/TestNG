@@ -14,11 +14,11 @@ public class C03_PozitifLoginTest {
     // 6- Basarili olarak giris yapilabildigini test edin
 
     QualitydemyPage qualitydemyPage=new QualitydemyPage();
-    @Test
+    @Test (groups = {"minireg1","smoke"})
     public void test01(){
         // 1- https://www.qualitydemy.com/ anasayfasina gidin
         Driver.getDriver().get("https://qa.qualitydemy.com/");
-        qualitydemyPage.acceptCookie.click();
+        //qualitydemyPage.acceptCookie.click();
 
         // 2- login linkine basin
         qualitydemyPage.loginLink.click();

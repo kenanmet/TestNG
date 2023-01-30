@@ -12,7 +12,7 @@ public class C03_NutellaTesti {
     // nutella icin arma yapin
     // sonuclarin nutella icerdigini test edin
 
-    @Test
+    @Test (groups = {"minireg1","minireg2","smoke"})
     public void test01(){
         // amazon sayfasina gidin
         Driver.getDriver().get("https://www.amazon.com");
